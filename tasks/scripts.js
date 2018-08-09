@@ -30,7 +30,7 @@ gulp.task('scripts',()=>{
             module:{
                 rules:[{
                     test:/\.js$/,
-                    loader:'babel'
+                    loader:'babel-loader'
                 }]
             }
         }),null,(err,stats)=>{
